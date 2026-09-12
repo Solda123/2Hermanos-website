@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { ServicesSection } from './components/ServicesSection';
@@ -130,6 +131,9 @@ export default function App() {
         onClose={() => setActiveModalService(null)}
         onSelectForQuote={handleSelectServiceForQuote}
       />
+
+      {/* Vercel Web Analytics */}
+      <Analytics />
     </div>
   );
 }
