@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+    <style>
+      .txt-2 { font-family: system-ui, -apple-system, sans-serif; font-weight: 900; font-size: 190px; fill: #0055D4; }
+      .txt-h { font-family: system-ui, -apple-system, sans-serif; font-weight: 900; font-size: 190px; fill: #FFFFFF; }
+      .txt-title { font-family: system-ui, -apple-system, sans-serif; font-weight: 900; font-size: 38px; fill: #FFFFFF; }
+      .txt-sub { font-family: system-ui, -apple-system, sans-serif; font-weight: 800; font-size: 18px; fill: #00A3FF; letter-spacing: 1.5px; }
+    </style>
+  </defs>
+  <circle cx="200" cy="200" r="185" fill="#0B1118" stroke="#0055D4" stroke-width="16"/>
+  
+  <!-- 2H Logo Mark -->
+  <text x="135" y="215" class="txt-2" text-anchor="middle" filter="url(#shadow)">2</text>
+  <text x="265" y="215" class="txt-h" text-anchor="middle" filter="url(#shadow)">H</text>
+  
+  <!-- Text inside circle -->
+  <text x="200" y="295" class="txt-title" text-anchor="middle">2Hermanos</text>
+  <text x="200" y="335" class="txt-sub" text-anchor="middle">SOLUCIONES INTEGRALES</text>
+</svg>
